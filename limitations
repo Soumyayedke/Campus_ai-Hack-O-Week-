@@ -1,0 +1,16 @@
+ Limitations
+
+
+Although the Student Query Intent Classifier works effectively for basic query routing, it has several limitations that should be considered.
+
+First, the model is trained on a small, manually created dataset. Because of this, it may not generalize well to a wide variety of real-world student queries. The accuracy of the system highly depends on the size and diversity of the training data. If students use phrasing that is very different from the training examples, the prediction may be incorrect.
+
+Second, the system uses TF-IDF and a Naive Bayes classifier, which rely mainly on word frequency rather than deep contextual understanding. This means the model does not truly “understand” the meaning of a sentence. It may struggle with complex queries or sentences that contain multiple intents, such as asking about both hostel and scholarship information in the same query.
+
+Another limitation is the lack of spelling correction and language normalization. If a student makes spelling mistakes or uses informal language, the model’s prediction accuracy may decrease. Since TF-IDF treats words as separate tokens, even small variations can affect classification.
+
+Additionally, the system currently supports only predefined intent categories. If new categories such as placements or events need to be added, the model must be retrained with new labeled data. This makes it less flexible in dynamic environments unless continuously updated.
+
+Finally, the system does not display confidence scores or probability values along with predictions. As a result, there is no clear indication of how certain the model is about its classification, which could be useful in real-world deployment.
+
+These limitations highlight the need for larger datasets and more advanced models if the system is to be used in a real institutional environment.
