@@ -1,0 +1,71 @@
+Real-World Use
+
+This Student Query Intent Classifier can be used in real educational systems to automate and improve student support services.
+
+1. College Chatbots
+
+The classifier can be integrated into a chatbot to automatically detect whether a student query is related to:
+
+Admissions
+
+Exams
+
+Timetable
+
+Hostel
+
+Scholarships
+
+Fees
+
+The chatbot can then provide the correct response instantly.
+
+2. Helpdesk Automation
+
+Instead of manually reading every query, the system can:
+
+Categorize incoming emails
+
+Route tickets to the correct department
+
+Reduce administrative workload
+
+ 3. Email/Ticket Routing System
+
+When a student sends an email like:
+
+"When will exam results be declared?"
+
+The system automatically assigns it to the Examination Department.
+
+ 4. Mobile App Integration
+
+It can be integrated into:
+
+College mobile apps
+
+ERP systems
+
+Student portals
+
+This improves response time and user experience.
+
+ 5. Foundation for AI Chatbot
+
+This project can serve as the base model for:
+
+Smart campus chatbot
+
+AI-based student assistant
+
+Automated query resolution system
+
+ Impact
+
+Faster response time
+
+Reduced manual effort
+
+Better student satisfaction
+
+Scalable system for large universities
